@@ -1,0 +1,279 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!--
+<section class="blank">
+
+</section>
+-->
+
+
+<section id="panel0">
+    <div class="row">
+        <h1 class="col-md-12 dark middle">
+            Damian Rogers
+        </h1>
+        <h2 id="tags" class="col-md-12 tags dark middle">
+            (A Personal Portfolio.)
+        </h2>
+        <div id="scroll" class="col-md-12 middle">
+            <span id="scroll-discover">
+                Scroll to Discover <br>
+                v
+            </span>
+        </div>
+    </div>
+</section>
+<section id="panel1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 images">
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='lit1.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='lit2.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='lit3.jpg')}}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 description shifted-right">
+                <h1 class="dark right">
+                    Lithum
+                </h1>
+                <h3 class="right">
+                    (Web Development.)
+                </h3>
+                <h4>
+                    "Lithum" gives current Columbia University students quick and easy assess to the entire list of classic readings assigned throughout the required course "Literature Humanities". Each text displayed on this site is accompanied by a simple description, as well as a link which allows users to quickly search for and purchase each title.
+                    I created this program in order to give Columbia Univeristy students an efficent way to gain relevant information about each of the 27 texts offered through "Literature Humanities", while simultaenously working to refine my frontend and backend web development skills.
+                </h4>
+                <h4 class="right">
+                    <span class="tag">
+                        Python
+                    </span>
+                    <span class="tag">
+                        Flask
+                    </span>
+                    <span class="tag">
+                        Javascript
+                    </span>
+                    <span class="tag">
+                        jQuery
+                    </span>
+                    <span class="tag">
+                        Bootstrap
+                    </span>
+                    <span class="tag">
+                        HTML
+                    </span>
+                    <span class="tag">
+                        CSS
+                    </span>
+                </h4>
+                <div class="link right">
+                    <a href="https://github.com/Damianrogers51/Lithum" target="_blank" >Take a Closer Look ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="panel2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 description shifted-left">
+                <h1 class="dark">
+                    Scene Maker
+                </h1>
+                <h3>
+                    (Computer Graphics.)
+                </h3>
+                <h4>
+                    "Scene Maker" is a simple 3D computer graphics program, which allows users to quickly generate OpenGL primatives and position them within a user-defined viewspace. This program automates the generation of 3D figures through the utilization of numerous C++ functions, which greatly reduce the amount of code needed to develop these simple 3D scenes. 
+                    I created this program as a means to gain a better understanding of 3D computer graphics programs, as well as the basic foundations of modern 3D animation softwares such as Maya and Blender.
+                </h4>
+                <h4>
+                    <span class="tag">
+                        C++
+                    </span>
+                    <span class="tag">
+                        OpenGL
+                    </span>
+                    <span class="tag">
+                        GLSL
+                    </span>
+                </h4>
+                <div class="link">
+                    <a href="https://github.com/Damianrogers51/Computer-Graphics" target="_blank">Take a Closer Look ></a>
+                </div>
+            </div>
+            <div class="col-md-4 images right">
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='opengl1.jpg')}}" alt="" class="opengl">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='opengl3.jpg')}}" alt="" class="opengl">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='opengl2.jpg')}}" alt="" class="opengl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="panel3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 images">
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='snote1.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='snote2.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='snote3.jpg')}}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 description shifted-right">
+                <h1 class="dark right">
+                    Sticky Note
+                </h1>
+                <h3 class="right">
+                    (Web Development.)
+                </h3>
+                <h4>
+                    "Sticky Note" is a useful study aid that allows users to create and save their own set of virtual flashcards and sticky notes. These notes can store both text and images, allowing users to save different types of information which can then be quickly accessed and altered later. 
+                    Users are also given the opportunity to alter the color and size of each note they create, as a means to group information together. I developed this web application in order to give students an interactive and effective way to study online, as well as a safe and reliable way to store their course materials.
+                    <!--This web application was developed using Python and Flask as a means to store and retrieve user created data from a server. While simultaenously utilizing Javascript, jQuery, HTML, and CSS in order to create an interactive user experience.-->
+
+                </h4>
+                <h4 class="right">
+                    <span class="tag">
+                        Python
+                    </span>
+                    <span class="tag">
+                        Flask
+                    </span>
+                    <span class="tag">
+                        Javascript
+                    </span>
+                    <span class="tag">
+                        jQuery
+                    </span>
+                    <span class="tag">
+                        Bootstrap
+                    </span>
+                    <span class="tag">
+                        HTML
+                    </span>
+                    <span class="tag">
+                        CSS
+                    </span>
+                </h4>
+                <div class="link right">
+                    <a href="https://github.com/Damianrogers51/Sticky-Note" target="_blank" >Take a Closer Look ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="panel4">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 description shifted-left">
+                <h1 class="dark">
+                    Quote Stream
+                </h1>
+                <h3>
+                    (Web Development.)
+                </h3>
+                <h4>
+                    "Quote Stream" is a web application that allows users to store a collection of their favorite quotes, which are then automatically iterated through and displayed to the user. 
+                    Users can quickly add, update, and delete quotes from their collection, and pause the stream at any given time. Similarly, each quote is linked directly to a Google search, so users can quickly find relevant information related to their favorite quotes.
+                    I created this web application as a means to store and display my favorite literary quotes.
+                </h4>
+                <h4>
+                    <span class="tag">
+                        Python
+                    </span>
+                    <span class="tag">
+                        Flask
+                    </span>
+                    <span class="tag">
+                        Javascript
+                    </span>
+                    <span class="tag">
+                        jQuery
+                    </span>
+                    <span class="tag">
+                        Bootstrap
+                    </span>
+                    <span class="tag">
+                        HTML
+                    </span>
+                    <span class="tag">
+                        CSS
+                    </span>
+                </h4>
+                <div class="link">
+                    <a href="https://github.com/Damianrogers51/Quote-Stream" target="_blank">Take a Closer Look ></a>
+                </div>
+            </div>
+            <div class="col-md-4 images right">
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='quote1.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='quote2.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img src="{{url_for('static', filename='quote3.jpg')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="panel5">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 id="email" class="middle">
+                damian.rogers@columbia.edu
+            </h1>
+        </div>
+        <div class="col-md-12">
+            <h4 id="address" class="middle">
+                70 Morningside Drive, New York, NY 10027
+            </h4>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

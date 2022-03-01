@@ -1,0 +1,226 @@
+html {
+    overflow-x: hidden;
+
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+
+    width: 100vw;
+}
+
+body {
+    background-color: blanchedalmond;
+    width: 100vw;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+
+    scroll-snap-align: start;
+
+    padding: 40px;
+    padding-top: 72px;
+}
+
+#panel0 {
+    padding: 140px;
+    padding-top: 174px;
+}
+
+#panel5 {
+    padding: 140px;
+    padding-top: 174px;
+}
+
+.dark {
+    font-weight: 500;
+}
+
+.right {
+    text-align: end;
+
+    justify-content: end;
+}
+
+.middle {
+    text-align: center;
+}
+
+h1 {
+    font-size: 7em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h4 {
+    margin-top: 40px;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.image-row {
+    padding: 0px;
+    max-height: 28.5vh;
+    margin-top: 10px;
+}
+
+img {
+    height: 100%;
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+img:hover {
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+}
+
+.navbar {
+    background-color: blanchedalmond;
+
+    padding: 0px;
+}
+
+.divider {
+    margin-top: 20px;
+
+    width: 100%;
+    
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: black;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.description {
+    padding: 0px;
+}
+
+#damian {
+    margin-top: 20px;
+    margin-left: 40px;
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+#contact {
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 40px;
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+#damian:hover, #contact:hover {
+    cursor: pointer;
+
+    color: rgb(211, 194, 169); 
+}
+
+.link {
+    margin-top: 40px;
+}
+
+a {
+    color: rgb(211, 194, 169);  
+
+    transition: ease-out;
+    transition-duration: .2s;
+
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+
+    text-decoration: none;
+}
+
+#title-panel {
+    align-items: center;
+    justify-content: center;
+}
+
+#scroll {
+    margin-top: 40px;
+}
+
+#scroll-discover {
+    line-height: 1.3em;
+    color: rgb(211, 194, 169); 
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+#scroll-discover:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#tags {
+    line-height: 1.25em;
+}
+
+#email {
+    font-size: 4em;
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+#email:hover {
+    color: rgb(211, 194, 169); 
+}
+
+#address {
+    font-size: 2em;
+}
+
+.shifted-right {
+    padding-left: 40px;
+}
+
+.shifted-left {
+    padding-right: 40px;
+}
+
+#panel0, #panel5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag {
+    margin-right: 5px;
+
+    color: rgb(211, 194, 169);
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+.tag:hover {
+    color: black;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
